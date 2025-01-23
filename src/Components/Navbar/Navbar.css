@@ -1,3 +1,12 @@
 .nav{
     @apply mt-[41px]
 }
+.navrow{
+    @apply flex flex-wrap justify-between items-center font-poppin font-semibold text-[15px] text-[#000000]
+}
+.nav_menu_part ul{
+    @apply flex flex-wrap gap-[33px]
+}
+.nav_account_part{
+    @apply flex flex-wrap gap-[30px] items-center
+}

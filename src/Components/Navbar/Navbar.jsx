@@ -33,10 +33,10 @@ const Navbar = () => {
                 <Link to={""}>Account</Link>
               </div>
               <div>
-                <span></span>
+                <span className="w-[1px] h-[9px] bg-[#DAD8D8] block"></span>
               </div>
-              <div>
-                <FiPhone />
+              <div className="flex gap-[6px] items-center">
+                <FiPhone className="text-[#B00000]" />
                 <p>+2349067322844</p>
               </div>
             </div>

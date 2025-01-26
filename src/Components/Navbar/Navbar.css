@@ -4,9 +4,19 @@
 .navrow{
     @apply flex flex-wrap justify-between items-center font-poppin font-semibold text-[15px] text-[#000000]
 }
+.nav_service_part a:focus{
+    text-decoration: underline red 4px;
+}
 .nav_menu_part ul{
     @apply flex flex-wrap gap-[33px]
 }
+.nav_menu_part ul li a:focus{
+    text-decoration: underline red 4px;
+}
 .nav_account_part{
-    @apply flex flex-wrap gap-[30px] items-center
+    @apply flex flex-wrap gap-[30px] items-center;
+    
+}
+.nav_account_part a:focus{
+    text-decoration: underline red 4px;
 }

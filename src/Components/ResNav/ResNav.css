@@ -1,0 +1,30 @@
+.resNav {
+  @apply lg:hidden relative;
+}
+.resMenu {
+  @apply bg-[#b00000] rounded-[10px] py-3 px-[20px] font-poppin font-semibold text-white text-[15px] absolute right-3 top-[40px];
+}
+.res_nav_content {
+  @apply flex flex-col gap-[10px] items-center;
+}
+.res_nav_service_part a:hover {
+  @apply bg-black py-[2px] px-[20px] rounded-[5px];
+}
+.res_nav_menu_part ul {
+  @apply flex flex-col gap-[10px] items-center;
+}
+.res_nav_menu_part ul li a:hover {
+  @apply bg-black py-[2px] px-[20px] rounded-[5px];
+}
+.res_nav_account_part {
+  @apply flex flex-col gap-[10px] items-center;
+}
+.res_nav_account_part a:hover {
+  @apply bg-black py-[2px] px-[20px] rounded-[5px];
+}
+.res_no_icon_dev{
+    @apply px-[5px] py-[2px]
+}
+.res_no_icon_dev:hover {
+  @apply bg-black rounded-[5px] py-[2px] px-[5px];
+}

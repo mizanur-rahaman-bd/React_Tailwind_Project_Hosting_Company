@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       poppin: ["Poppins", "serif"],
+      inter: ["Inter", "serif"],
     },
     container: {
       center: true,

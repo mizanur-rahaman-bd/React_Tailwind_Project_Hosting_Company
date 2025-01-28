@@ -1,0 +1,23 @@
+.banner {
+  @apply mt-[97px] mb-[79px];
+}
+.banner_row {
+  @apply flex justify-between items-center;
+}
+.banner_text_part h1 {
+  @apply w-[608px] font-poppin font-bold text-[64px] text-[#2E2E2E];
+}
+.banner_text_part p {
+  @apply w-[412px] font-inter font-normal text-[16px] text-[#808080] mt-[34px] mb-[60px];
+}
+.banner_text_part button {
+  @apply px-[18px] py-[12px] font-poppin font-normal text-[14px] text-[#000000] rounded-[8px];
+  border: 1px solid #000000;
+}
+.banner_text_part button:hover {
+  @apply bg-[#B00000] text-white;
+  border: 1px solid #b00000;
+}
+.banner_img_part{
+    @apply w-[552px] h-[504px]
+}

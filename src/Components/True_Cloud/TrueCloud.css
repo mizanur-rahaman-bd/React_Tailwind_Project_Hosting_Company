@@ -1,0 +1,15 @@
+.trueCloud{
+    @apply mb-[45px]
+}
+.trueCloudRow{
+    @apply flex justify-between items-center
+}
+.trueCloudTextPart h2{
+    @apply font-inter font-extrabold text-[48px] text-[#18191F]
+}
+.trueCloudTextPart p{
+    @apply w-[573px] font-inter font-normal text-[18px] text-[#18191F] my-[30px]
+}
+.trueCloudImgPart{
+    @apply w-[577px] flex flex-wrap gap-[80px]
+}

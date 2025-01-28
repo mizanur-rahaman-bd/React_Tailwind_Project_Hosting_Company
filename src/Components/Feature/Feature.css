@@ -1,0 +1,19 @@
+.feature{
+    @apply mb-[133px]
+}
+.feature_row{
+    @apply flex justify-around items-center
+}
+.feature_single_col{
+    @apply w-[260px] h-[218px] flex flex-col items-center gap-[12px]
+}
+.feature_single_col img{
+    @apply w-[100px] h-[100px]
+}
+.feature_single_col h3{
+    @apply font-poppin font-bold text-[20px] text-black
+}
+.feature_single_col p{
+    @apply font-poppin font-light text-[12px] text-black;
+    text-align: center;
+}

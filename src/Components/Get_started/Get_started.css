@@ -1,0 +1,12 @@
+.get_started_heading_part{
+    @apply flex flex-col justify-center items-center
+}
+.get_started_heading_part h2{
+    @apply w-[650px] text-center font-poppin font-semibold text-[50px] text-[#000000] 
+}
+.select_part{
+    @apply flex items-center gap-[30px]
+}
+.get_start_P{
+    @apply font-poppin font-normal text-[25px] text-[#000000] mt-[38px] mb-[68px]
+}

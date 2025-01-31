@@ -2,7 +2,7 @@
     @apply mb-[133px]
 }
 .feature_row{
-    @apply flex justify-around items-center
+    @apply flex flex-wrap gap-[30px] justify-around items-center
 }
 .feature_single_col{
     @apply w-[260px] h-[218px] flex flex-col items-center gap-[12px]

@@ -1,15 +1,15 @@
-.trueCloud{
-    @apply mb-[45px]
+.trueCloud {
+  @apply px-3 mb-[45px];
 }
-.trueCloudRow{
-    @apply flex justify-between items-center
+.trueCloudRow {
+  @apply flex flex-wrap md:flex-col lg:flex-row justify-between items-center;
 }
-.trueCloudTextPart h2{
-    @apply font-inter font-extrabold text-[48px] text-[#18191F]
+.trueCloudTextPart h2 {
+  @apply font-inter font-extrabold text-center text-[22px] xl:text-[48px] text-[#18191F];
 }
-.trueCloudTextPart p{
-    @apply w-[573px] font-inter font-normal text-[18px] text-[#18191F] my-[30px]
+.trueCloudTextPart p {
+  @apply w-[270px] md:w-[625px] lg:w-[390px] xl:w-[573px] font-inter font-normal text-[13px] xl:text-[18px] text-[#18191F] my-[30px];
 }
-.trueCloudImgPart{
-    @apply w-[577px] flex flex-wrap gap-[80px]
+.trueCloudImgPart {
+  @apply w-[577px] flex flex-wrap gap-[50px] xl:gap-[80px] items-center justify-center;
 }

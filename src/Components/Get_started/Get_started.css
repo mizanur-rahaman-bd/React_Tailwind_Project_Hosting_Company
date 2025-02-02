@@ -10,3 +10,6 @@
 .get_start_P{
     @apply font-poppin font-normal text-[25px] text-[#000000] mt-[38px] mb-[68px]
 }
+.select_part p{
+    @apply font-poppin font-normal text-[25px] text-[#000000] 
+}

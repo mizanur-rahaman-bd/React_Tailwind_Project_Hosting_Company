@@ -22,7 +22,7 @@ const Get_started = () => {
                 <p>Yearly</p>
               </div>
               <div className="">
-                <p>20% discount</p>
+                <span className="font-poppin font-medium text-[10px] bg-[#FFE87A] p-[8px] rounded-[8px]">20% discount</span>
               </div>
             </div>
           </div>

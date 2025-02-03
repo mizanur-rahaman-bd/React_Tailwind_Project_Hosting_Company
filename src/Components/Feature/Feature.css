@@ -1,5 +1,5 @@
 .feature{
-    @apply mb-[133px]
+    @apply mb-[80px] xl:mb-[133px]
 }
 .feature_row{
     @apply flex flex-wrap gap-[30px] justify-around items-center

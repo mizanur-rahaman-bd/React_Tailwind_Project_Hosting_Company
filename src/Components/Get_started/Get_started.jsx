@@ -26,6 +26,18 @@ const Get_started = () => {
               </div>
             </div>
           </div>
+          <div className="get_statrted_span_part">
+            <div className="basic_span w-[444px]">
+              <h2>Basic</h2>
+              <span></span>
+
+            </div>
+            <div className="premium_span w-[444px]">
+              <h2>Premium</h2>
+            <span></span>
+
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -1,15 +1,21 @@
-.get_started_heading_part{
-    @apply flex flex-col justify-center items-center
+.get_started_heading_part {
+  @apply flex flex-col justify-center items-center;
 }
-.get_started_heading_part h2{
-    @apply w-[650px] text-center font-poppin font-semibold text-[50px] text-[#000000] 
+.get_started_heading_part h2 {
+  @apply w-[290px] xl:w-[650px] text-center font-poppin font-semibold text-[22px] xl:text-[50px] text-[#000000];
 }
-.select_part{
-    @apply flex items-center gap-[30px]
+.select_part {
+  @apply flex items-center gap-[5px] xl:gap-[30px] mb-[80px];
 }
-.get_start_P{
-    @apply font-poppin font-normal text-[25px] text-[#000000] mt-[38px] mb-[68px]
+.get_start_P {
+  @apply font-poppin font-normal text-[15px] xl:text-[25px] text-[#000000] mt-[20px] xl:mt-[38px] mb-[40px] xl:mb-[68px];
 }
-.select_part p{
-    @apply font-poppin font-normal text-[25px] text-[#000000] 
+.select_part p {
+  @apply font-poppin font-normal text-[17px] xl:text-[25px] text-[#000000];
+}
+.get_statrted_span_part{
+    @apply flex justify-center items-center
+}
+.get_statrted_span_part h2{
+    @apply text-center font-poppin font-semibold text-[30px] text-[#000000]
 }

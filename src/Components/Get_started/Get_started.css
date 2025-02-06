@@ -14,7 +14,7 @@
   @apply font-poppin font-normal text-[17px] xl:text-[25px] text-[#000000];
 }
 .get_statrted_span_part{
-    @apply flex justify-center items-center
+    @apply flex flex-wrap justify-center items-center
 }
 .get_statrted_span_part h2{
     @apply text-center font-poppin font-semibold text-[30px] text-[#000000]

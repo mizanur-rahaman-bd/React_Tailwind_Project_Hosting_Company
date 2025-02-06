@@ -1,3 +1,6 @@
+.get_started {
+  @apply mb-[105px];
+}
 .get_started_heading_part {
   @apply flex flex-col justify-center items-center;
 }
@@ -13,9 +16,46 @@
 .select_part p {
   @apply font-poppin font-normal text-[17px] xl:text-[25px] text-[#000000];
 }
-.get_statrted_span_part{
-    @apply flex flex-wrap justify-center items-center
+.get_statrted_span_part {
+  @apply flex flex-wrap justify-center items-center;
 }
-.get_statrted_span_part h2{
-    @apply text-center font-poppin font-semibold text-[30px] text-[#000000]
+.get_statrted_span_part h2 {
+  @apply text-center font-poppin font-semibold text-[30px] text-[#000000];
+}
+
+
+
+.span_card_inner_row {
+  @apply flex;
+}
+.span_single_card {
+  @apply w-[299px] pt-[34px] pb-[33px] pl-[34px] pr-[29px] rounded-[15px];
+  border: 2px solid #c4c4c4;
+}
+.span_single_card h3 {
+  @apply font-poppin font-semibold text-[28px] text-[#000000];
+}
+.span_single_card p {
+  @apply font-poppin font-normal text-[12px] text-[#000000] mt-[11px] mb-[28px];
+}
+.span_single_card h4 {
+  @apply font-poppin font-semibold text-[42px] text-[#000000] mb-[11px];
+}
+.span_single_card h6 {
+  @apply font-poppin font-light text-[14px] text-[#000000] mb-[35px];
+}
+.span_single_card button {
+  @apply font-poppin font-semibold text-[14px] text-[#000000] px-[50px] py-[9px] rounded-[12px] mb-[35px];
+  border: 2px solid black;
+}
+.span_single_card button:hover {
+  @apply bg-[#B00000] text-white;
+  border: 2px solid #b00000;
+}
+.span_single_card ul li {
+  @apply font-inter font-bold text-[16px] text-[#808080] mb-[15px];
+}
+.span_single_card ul li::before {
+  @apply pr-[24px];
+  content: "✓";
 }

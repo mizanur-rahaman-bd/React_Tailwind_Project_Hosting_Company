@@ -29,13 +29,13 @@ const Get_started = () => {
             </div>
           </div>
           <div className="get_statrted_span_part">
-            <div className="basic_span w-[444px]">
+            <div className="basic_span w-[120px] md:w-[220px] lg:w-[444px]">
               <h2>Basic</h2>
-              <span className="w-[444px] h-[2px] bg-[#C4C4C4] block"></span>
+              <span className="w-[120px] md:w-[220px] lg:w-[444px] h-[2px] bg-[#C4C4C4] block"></span>
             </div>
-            <div className="premium_span w-[444px]">
+            <div className="premium_span w-[120px] md:w-[220px] lg:w-[444px]">
               <h2>Premium</h2>
-              <span className="w-[444px] h-[2px] bg-[#c4c4c4] block"></span>
+              <span className="w-[120px] md:w-[220px] lg:w-[444px] h-[2px] bg-[#c4c4c4] block"></span>
             </div>
             <div className="span_card_row">
               <div className="span_card_inner_row">

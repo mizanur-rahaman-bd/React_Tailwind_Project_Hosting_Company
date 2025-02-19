@@ -20,16 +20,18 @@
   @apply flex flex-wrap justify-center items-center;
 }
 .get_statrted_span_part h2 {
-  @apply text-center font-poppin font-semibold text-[30px] text-[#000000];
+  @apply text-center font-poppin font-semibold text-[20px] md:text-[30px] text-[#000000];
 }
-
+.span_card_row{
+  @apply mt-[40px] md:mt-[85px]
+}
 
 
 .span_card_inner_row {
-  @apply flex;
+  @apply flex flex-wrap justify-center gap-[50px] lg:gap-[100px];
 }
 .span_single_card {
-  @apply w-[299px] pt-[34px] pb-[33px] pl-[34px] pr-[29px] rounded-[15px];
+  @apply w-[215px] xl:w-[299px] pt-[34px] pb-[33px] pl-[34px] pr-[29px] rounded-[15px];
   border: 2px solid #c4c4c4;
 }
 .span_single_card h3 {
@@ -45,7 +47,7 @@
   @apply font-poppin font-light text-[14px] text-[#000000] mb-[35px];
 }
 .span_single_card button {
-  @apply font-poppin font-semibold text-[14px] text-[#000000] px-[50px] py-[9px] rounded-[12px] mb-[35px];
+  @apply font-poppin font-semibold text-[12px] xl:text-[14px] text-[#000000] px-[20px] xl:px-[50px] py-[9px] rounded-[12px] mb-[35px];
   border: 2px solid black;
 }
 .span_single_card button:hover {
@@ -53,7 +55,7 @@
   border: 2px solid #b00000;
 }
 .span_single_card ul li {
-  @apply font-inter font-bold text-[16px] text-[#808080] mb-[15px];
+  @apply font-inter font-bold text-[12px] xl:text-[16px] text-[#808080] mb-[15px];
 }
 .span_single_card ul li::before {
   @apply pr-[24px];

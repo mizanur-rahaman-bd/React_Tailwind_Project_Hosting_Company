@@ -1,0 +1,43 @@
+.footer{
+    @apply py-[80px] px-[105px] bg-[#B00000]
+    
+    
+    
+} 
+
+.footer_row{
+    @apply flex flex-wrap justify-between
+}
+.footer_logo_col{
+    @apply w-[290px]
+}
+.footer_logo_col img{
+    @apply w-[120px] h-[80px]
+}
+.footer_logo_col p{
+    @apply font-inter font-normal text-[16px] text-[#E6E6E6] mt-[16px] leading-[32px]
+}
+.footer_service_col{
+    @apply flex flex-col gap-[24px]
+}
+.footer_service_col ul{
+    @apply flex flex-col gap-[24px]
+}
+.footer_host_col{
+    @apply flex flex-col gap-[24px]
+}
+.footer_host_col ul{
+    @apply flex flex-col gap-[24px]
+}
+.footer_company_col{
+    @apply flex flex-col gap-[24px]
+}
+.footer_company_col ul{
+    @apply flex flex-col gap-[24px]
+}
+.footer_help_col{
+    @apply flex flex-col gap-[24px]
+}
+.footer_help_col ul{
+    @apply flex flex-col gap-[24px]
+}

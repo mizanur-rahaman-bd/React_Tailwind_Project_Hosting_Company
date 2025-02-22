@@ -56,6 +56,9 @@ const Footer = () => {
 
           </div>
         </div>
+        <div className="footer_copy_right">
+          <h5>Built by Jeremiah with love in Lagos. Copyright 2021</h5>
+        </div>
       </div>
 
     </footer>
